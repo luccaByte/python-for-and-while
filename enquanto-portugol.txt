@@ -7,7 +7,7 @@ inicio
     
     enquanto andar >= 1 faca
         se andar <> 13 entao
-            escreva(andar)
+            escreva(andar, "º andar.")
         fimSe
         andar <- andar - 1
     fimEnquanto
